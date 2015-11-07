@@ -24,7 +24,7 @@ class CustomCar(car.Car):
         """
         car.Car.__init__(self, color)
         self.tires = tires if tires is not None else[
-            CustomTire() for index in range(TIRES)]
+            CustomTire() for _ in range(TIRES)]
 
 
 class CustomTire(car.Tire):
