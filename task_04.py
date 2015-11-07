@@ -10,12 +10,12 @@ TIRES = 4
 
 class CustomCar(car.Car):
     """subclass from Car()"""
-    def __init__(self, color, tires=None):
+    def __init__(self, color='teal', tires=None):
         """
         Override the class constructor CustomCar() has inherited from Car()
 
         Args:
-            color(str): can by any color
+            color(str): can by any color, def is teal
             tires(list): list of custom tires defaulted to None
 
         Attributes:

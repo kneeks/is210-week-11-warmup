@@ -12,4 +12,4 @@ EGGPLANT = produce.Produce(1311210802)
 
 TOMATO_ARRIVAL = TOMATO.arrival
 
-EGGPLANT_EXPRIRES = EGGPLANT.get_expiration()
+EGGPLANT_EXPIRES = EGGPLANT.get_expiration()
